@@ -13,8 +13,9 @@
 :root {
 	--color-bg: #1b1c1e;
 	--color-bg-variant: #1f1f1f;
+	--color-bg-trans: rgba(255, 255, 255, 0.1);
 	--color-primary: #d3bc3b;
-	--color-primary-variant: #a9f6e7;
+	--color-primary-variant: #ecdb78;
 	--color-white: #fdfeff;
 	--color-light: rgba(253, 254, 255, 0.6);
 
@@ -63,6 +64,7 @@ h1 {
 
 section {
 	margin-top: 8rem;
+	height: 100vh;
 }
 
 section > h2,
@@ -94,7 +96,7 @@ a:hover {
 	display: inline-block;
 	color: var(--color-primary);
 	padding: 0.75rem 1.2rem;
-	/* border-radius: 2rem; */
+	border-radius: 2rem;
 	cursor: pointer;
 	border: 1px solid var(--color-primary);
 	transition: var(--transition);
